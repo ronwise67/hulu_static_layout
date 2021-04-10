@@ -1,0 +1,235 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color: #f5f6f7; */
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: white;
+    margin: 0px;
+    /* height: 100%; */
+}
+
+#loginBar {
+    width: 100%;
+    height: 60px;
+    position: relative;
+    opacity: 0;
+    z-index: 1;
+}
+
+#logIn {
+    position:absolute;
+    padding: 1px;
+    margin: 2em;
+    top:0;
+    right:0;
+    font-weight: bold;   
+    text-decoration: none;
+    color: white;
+    z-index: 1;
+}
+
+#logIn:hover {opacity: 0.5;}
+
+#topImage{
+    width: 100%;
+    height: 500px;
+    background-image: url(./assets/background-3200x1320.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#huluLogo{  
+    /* position: fixed;
+    top: 50%;
+    z-index: 2; */
+    width: 30%;
+}
+
+.background{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.free{
+    color: #2DBD9D;
+    text-transform: uppercase;
+    font-size: 10pt;
+}
+
+.watch{
+    width: 60%;
+    text-align: center
+}
+
+.hbo{
+    width: 60%;
+    text-align: center;
+}
+
+.trial{
+    padding: 0 32px;
+    height: 50px;
+    border-radius: 7px;
+}
+
+.trial:hover{opacity: 0.8;}
+
+.disclaimer{
+    align-self: center;
+    font-size: 6pt;
+    opacity: 0.6;
+    /* width: 300px;
+    height: 10px; */
+    color: white;
+}
+
+.bundleBox{
+    background: linear-gradient(to left, #081621, #0F4658);
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+}
+
+.tvYouLoveBox{
+    background-color: black;
+    height: 350px;
+    margin-top: -25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#bbLogos{
+    padding-right: 30px;
+    margin-left: 30px;
+
+}
+
+.bbText{
+    text-align: left;
+    font-size: 18pt;
+    line-height: 12px;
+    padding-bottom: 30px;
+    flex-basis: 60%;
+}
+
+#bbText1{
+    font-size: 8pt;
+    color: #2DBD9D;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 0%;
+}
+
+#bbText2{
+    font-size: 18pt;
+    letter-spacing: .8px;
+    line-height: 1.5;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#bbDetailsLink{
+    text-decoration: underline;
+    font-size: 10pt;
+    font-weight: 110;
+    color: white;
+    opacity: 50%;
+}
+
+.getBundle{
+    margin-top: -20px;
+    margin-right: 40px;
+}
+
+#getBundleButton{
+    border: 2px solid white;
+    border-radius: 6px;
+    padding: 15px 12px;
+    text-align: center;
+    font-size: 10pt;
+    font-weight: bold;
+}
+
+.buttonLink{
+    color: white;
+    text-decoration: none;
+}
+
+#termsApply{
+    text-align: center;
+    padding-top: 10px;
+    text-decoration: underline;
+}
+
+#termsLink{
+    font-size: 8pt;
+    opacity: 0.5;
+}
+
+.plans{
+    color: #2DBD9D;
+    text-transform: uppercase;
+    font-size: 12pt;
+    font-weight: bold;
+    padding-top: 70px;
+}
+
+h1{
+    font-size: 50pt;
+    font-weight: bolder;
+    margin-top: -20px;
+    margin-bottom: -10px;
+}
+
+.stream{
+    font-size: 15pt;
+    font-weight: lighter;
+    max-width: 55%;
+    text-align: center;
+}
+
+.libGrid{
+    background-color: black;
+    display: grid;
+    justify-content: center;
+    grid-template-rows: auto;
+    grid-template-columns: repeat(4, 320px);
+    margin-bottom: 500px;
+    font-size: 10pt;
+    bottom: 50px;
+    height: 600px;
+}
+
+.libBox{
+    position: relative;
+}
+
+.libImage{
+    filter: brightness(60%);
+}
+
+.libText{
+    position: absolute;
+    top: 0px;
+    left: 18px;
+    font-size: 12pt;
+    color: white;
+}
+
+#libTextBottom{
+    font-size: 18pt;
+    font-weight: bolder;
+    margin-top: -20px;
+    
+}
+
+#addOn{
+    position: absolute;
+    font-size: 8pt;
+}
